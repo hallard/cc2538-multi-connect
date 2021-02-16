@@ -1,7 +1,7 @@
 Zigbee CC2538 + CC2592 Multi Connect Board
 ==========================================
 
-<img src="https://github.com/hallard/cc2538-multi-connect/raw/master/pictures/cc2538.png">
+<img src="https://github.com/hallard/cc2538-multi-connect/raw/master/pictures/cc2538-boards.png">
 
 This is just a quick and dirty PCB breakout board, it could be done better, but the fact is that is does the jobs and it does well. It has been designed with free version of Eagle Cad PCB (V7.7).
 
