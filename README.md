@@ -3,9 +3,9 @@ Zigbee CC2538 + CC2592 Multi Connect Board
 
 <img src="https://github.com/hallard/cc2538-multi-connect/raw/master/pictures/cc2538.png">
 
-This is just a quick and dirty PCB breakout board, it could be done better, but the fact is that is does the jobs and it does well.
+This is just a quick and dirty PCB breakout board, it could be done better, but the fact is that is does the jobs and it does well. It has been designed with free version of Eagle Cad PCB (V7.7).
 
-The first idea and project was made by @jonoxer with this Z2T aka Zigbee2Tasmota board. You can find original project [here](https://github.com/SuperHouse/Z2T). I won't take any credit on what already done, just used his works (thanks to open source) added new ZigBee chip and some features like:
+The first idea and project was made by @jonoxer with this Z2T aka Zigbee2Tasmota board. You can find original project [here](https://github.com/SuperHouse/Z2T). I won't take any credit on what already done, just used his work (thanks to open source) added new ZigBee chip and some features like:
 
 - Easy to build and solder, 0805 CMS components, the trickiest is the CC2538 module
 - just but what you need, not all components are needed (but ZigBee chip CC2538 at least)
@@ -35,7 +35,6 @@ To be honest, the easiest way I found to flash firmware is to use one FTDI USB S
 
 <img src="https://github.com/hallard/cc2538-multi-connect/raw/master/pictures/cc-2538-flash.png">
 
-
 Installation
 ============
 
@@ -55,19 +54,8 @@ Depending on final use you want and I won't describe all here since there is a h
 - Zigpy
 - ...
 
-
-, ) you need to solder ;If you're using Battery clip connector, please isolate the A4/A5 and FTDI (V1.0 only) pads from clip because it will do shorts and prevent I2C to work.
-
-I'm Using the [LMIC stack](https://github.com/matthijskooijman/arduino-lmic) as his with custom sketch, this one is under NDA for Ultra Low Power, So I can't provide it but you can use the one in example of LMIC.
-
-You may need to disable debug of LMIC stack if missing.
-
-I'm also changing the Bootloader to use optiboot and win 1.5K of flash code and setup the Brown Out Detect to 1.8V to be able to works under 2.7V. Please see this [Pro-Mini-ICSP-FTDI](https://github.com/hallard/Pro-Mini-ICSP-FTDI) repo if you need to flash your Arduino Pro Mini with this bootloader. You'll see in [bootloader](https://github.com/hallard/Pro-Mini-ICSP-FTDI/tree/master/bootloaders) folder, I've compiled some for various Speed and for 8MHz and 16MHz Crystal (I use the 250KBPS one, it's fast and reliable).
-
-I've also created custom board definition for Arduino IDE so if using my bootloader, you'll have the board clock and serial speed selection in Arduino IDE, it located [here](https://github.com/ch2i/ch2i-arduino-boards)
-
-Schematic
-=========
+Schematics
+==========
 
 <img src="https://github.com/hallard/cc2538-multi-connect/raw/master/pictures/c2538-multi-connect-sch.png">
 
@@ -124,8 +112,15 @@ As soldering CC2538 can be tricky, you can just solder needed pin marked with wh
 Example of Assembled boards 
 ===========================
 
-<img src="https://github.com/hallard/Mini-LoRa/raw/master/pictures/Mini-LoRa-FrontBig.jpg" alt="Fully assembled with sensors">
 
+**Standalone With WeMos Mini D1**
+<img src="https://github.com/hallard/cc2538-multi-connect/raw/master/pictures/cc2538-wemos.jpg" alt="Fully assembled with WeMos Mini D1">
+
+**In USB Mode (with USB firmware)**
+<img src="https://github.com/hallard/cc2538-multi-connect/raw/master/pictures/cc2538-usb.jpg" alt="Fully assembled, standalone mode">
+
+**Packaged into enclosure**
+<img src="https://github.com/hallard/cc2538-multi-connect/raw/master/pictures/cc2538-enclosure.jpg" alt="With enclosure">
 
 License
 =======
@@ -141,28 +136,3 @@ Misc
 See news and other projects on my [blog][1] 
  
 [1]: https://hallard.me
-[3]: https://www.PCBs.io
-
-[20]: http://www.seeedstudio.com/depot/index.php?main_page=opl_info&opl_id=4
-[21]: http://www.ebay.com/itm/170578495165
-[22]: http://www.ebay.com/itm/351690376555
-[23]: http://www.ebay.com/itm/351738196013
-[24]: http://www.ebay.com/itm/371534934746
-[25]: https://www.adafruit.com/products/1979
-[26]: https://www.sparkfun.com/products/11114
-
-[27]: http://www.ebay.com/itm/121929386506?var=420920026758
-[28]: http://www.ebay.com/itm/371348168950
-[29]: http://www.ebay.com/itm/351588181858
-
-
-[40]: http://www.ebay.com/itm/262500056078
-[41]: http://www.aliexpress.com/item/Free-Shipping-Good-Quality-ABS-Material-Transparent-Cover-IP66-Waterproof-Electrical-Switch-Box-125-125-75mm/32522255056.html
-[42]: http://www.aliexpress.com/item/Temperature-and-humidity-Protective-sleeve-Accessories-PCB-for-SHT20-SHT21-SHT25/32695663191.html?spm=2114.13010208.99999999.264.dgLxek
-[43]: http://www.ebay.com/itm/401000227934
-[44]: http://www.ebay.com/itm/182181715511?var=483966356069
-[46]: http://www.ebay.com/itm/391462862706
-[47]: http://www.ebay.com/itm/232153789354?var=531358445664
-[48]: http://www.ebay.com/itm/301856945402
-
-[50]: https://octopart.com/bom-tool/MsqCYjTr
