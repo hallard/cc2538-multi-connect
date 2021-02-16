@@ -33,7 +33,7 @@ So there is no specific documentation, but you'll find below some references to 
 
 To be honest, the easiest way I found to flash firmware is to use one FTDI USB Serial adapter (take care one with 3.3V regulator, not 5V) and [cc2538prog](https://github.com/1248/cc2538-prog) using WeMos Mini D1 header
 
-<img src="https://github.com/hallard/cc2538-multi-connect/blob/main/pictures/cc-2538-flash.png">
+<img src="https://github.com/hallard/cc2538-multi-connect/blob/main/pictures/cc2538-flash.png">
 
 Installation
 ============
@@ -88,7 +88,7 @@ Text noted in `between like this one` means type text in google to find seller (
 Assembling Boards 
 =================
 
-<img src="https://github.com/hallard/cc2538-multi-connect/blob/main/pictures/cc2538.png">
+<img src="https://github.com/hallard/cc2538-multi-connect/blob/main/pictures/cc2538-boards.png">
 
 [PCBs.io](https://www.pcbs.io/) was giveing me some reward when ordering my designed boards from their site. This was pretty good, because I useed these rewards to create and design new boards and order boards for a discounted price, but looks like PCBs.io is gone, I do not have any rewards from PCBs.io since August 2020 and my free order placed after are still not received, so my guess they are not on business anymore.
 
@@ -113,7 +113,7 @@ Example of Assembled boards
 <img src="https://github.com/hallard/cc2538-multi-connect/blob/main/pictures/cc2538-usb.jpg" alt="Fully assembled, standalone mode">
 
 **Packaged into enclosure**
-<img src="https://github.com/hallard/cc2538-multi-connect/blob/main/pictures/cc2538-enclosure.jpg" alt="With enclosure">
+<img src="https://github.com/hallard/cc2538-multi-connect/blob/main/pictures/cc2538-enclosure.png" alt="With enclosure">
 
 License
 =======
