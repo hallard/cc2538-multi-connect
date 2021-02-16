@@ -57,7 +57,7 @@ Depending on final use you want and I won't describe all here since there is a h
 Schematics
 ==========
 
-<img src="https://github.com/hallard/cc2538-multi-connect/blob/main/pictures/c2538-multi-connect-sch.png">
+<img src="https://github.com/hallard/cc2538-multi-connect/blob/main/pictures/cc2538-multi-connect-sch.png">
 
 Bill Of Material (BOM)
 ======================
