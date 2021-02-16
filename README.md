@@ -1,7 +1,7 @@
 Zigbee CC2538 + CC2592 Multi Connect Board
 ==========================================
 
-<img src="https://github.com/hallard/cc2538-multi-connect/raw/master/pictures/cc2538-boards.png">
+<img src="https://github.com/hallard/cc2538-multi-connect/blob/master/pictures/cc2538-boards.png">
 
 This is just a quick and dirty PCB breakout board, it could be done better, but the fact is that is does the jobs and it does well. It has been designed with free version of Eagle Cad PCB (V7.7).
 
@@ -33,7 +33,7 @@ So there is no specific documentation, but you'll find below some references to 
 
 To be honest, the easiest way I found to flash firmware is to use one FTDI USB Serial adapter (take care one with 3.3V regulator, not 5V) and [cc2538prog](https://github.com/1248/cc2538-prog) using WeMos Mini D1 header
 
-<img src="https://github.com/hallard/cc2538-multi-connect/raw/master/pictures/cc-2538-flash.png">
+<img src="https://github.com/hallard/cc2538-multi-connect/blob/master/pictures/cc-2538-flash.png">
 
 Installation
 ============
@@ -57,7 +57,7 @@ Depending on final use you want and I won't describe all here since there is a h
 Schematics
 ==========
 
-<img src="https://github.com/hallard/cc2538-multi-connect/raw/master/pictures/c2538-multi-connect-sch.png">
+<img src="https://github.com/hallard/cc2538-multi-connect/blob/master/pictures/c2538-multi-connect-sch.png">
 
 Bill Of Material (BOM)
 ======================
@@ -88,16 +88,9 @@ Text noted in `between like this one` means type text in google to find seller (
 Assembling Boards 
 =================
 
-<img src="https://github.com/hallard/cc2538-multi-connect/raw/master/pictures/cc2538.png">
+<img src="https://github.com/hallard/cc2538-multi-connect/blob/master/pictures/cc2538.png">
 
-You can order PCBs of this board at [oshpark][https://oshpark.com/shared_projects/3h5YvEEm]~~
-
-- ~~[V1.2](https://www.PCBs.io/share/r1a3J) Classic I2C connector~~
-- ~~[V1.1a](https://www.PCBs.io/share/8AGb2) Classic I2C connector~~
-- ~~[V1.1a](https://www.PCBs.io/share/zjKdY) Grove I2C connector~~
-- ~~[V1.0](https://www.PCBs.io/share/r3LdE)~~
-
-PCBs.io was giveing me some reward when ordering my designed boards from their site. This was pretty good, because I useed these rewards to create and design new boards and order boards for a discounted price, but looks like PCBs.io is gone, I do not have any rewards from PCBs.io since August 2020 and my free order placed after are still not received, so my guess they are not on business anymore.
+[PCBs.io](https://www.pcbs.io/) was giveing me some reward when ordering my designed boards from their site. This was pretty good, because I useed these rewards to create and design new boards and order boards for a discounted price, but looks like PCBs.io is gone, I do not have any rewards from PCBs.io since August 2020 and my free order placed after are still not received, so my guess they are not on business anymore.
 
 So you can order the board on [oshpark](https://oshpark.com). 
 
@@ -114,21 +107,24 @@ Example of Assembled boards
 
 
 **Standalone With WeMos Mini D1**
-<img src="https://github.com/hallard/cc2538-multi-connect/raw/master/pictures/cc2538-wemos.jpg" alt="Fully assembled with WeMos Mini D1">
+<img src="https://github.com/hallard/cc2538-multi-connect/blob/master/pictures/cc2538-wemos.jpg" alt="Fully assembled with WeMos Mini D1">
 
 **In USB Mode (with USB firmware)**
-<img src="https://github.com/hallard/cc2538-multi-connect/raw/master/pictures/cc2538-usb.jpg" alt="Fully assembled, standalone mode">
+<img src="https://github.com/hallard/cc2538-multi-connect/blob/master/pictures/cc2538-usb.jpg" alt="Fully assembled, standalone mode">
 
 **Packaged into enclosure**
-<img src="https://github.com/hallard/cc2538-multi-connect/raw/master/pictures/cc2538-enclosure.jpg" alt="With enclosure">
+<img src="https://github.com/hallard/cc2538-multi-connect/blob/master/pictures/cc2538-enclosure.jpg" alt="With enclosure">
 
 License
 =======
 
-<img alt="Creative Commons Attribution-NonCommercial 4.0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png">   
+I kept the original one so
 
-This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/)    
-If you want to do commercial stuff with this project, please contact [CH2i company](https://www.ch2i.eu/en#support) so we can organize an simple agreement.
+Copyright 2020 SuperHouse Automation Pty Ltd www.superhouse.tv
+
+The hardware portion of this project is licensed under the TAPR Open Hardware License (www.tapr.org/OHL). The "license" folder within this repository contains a copy of this license in plain text format.
+
+The software portion of this project is licensed under the Simplified BSD License. The "licence" folder within this project contains a copy of this license in plain text format.
 
 Misc
 ====
